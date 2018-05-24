@@ -7,19 +7,17 @@
             "email": "rlukata7@gmail.com"
         }
     ],
-    "require": {
-        "giggsey/libphonenumber-for-php": "dev-master",
-        "pear/validate": "dev-master",
-        "pear/Auth": "dev-master"
-    },
     "repositories": [
         {
             "type": "vcs",
             "url":  "https://github.com/pear/Auth.git"
-        },
-        {
-            "type": "vcs",
-            "url":  "https://github.com/pear/MDB2.git"
         }
-    ]
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "giggsey/libphonenumber-for-php": "dev-master",
+        "pear/validate": "dev-master",
+        "pear/Auth": "* dev-trunk",
+        "silverorange/mdb2": "dev-master"
+    }
 }
